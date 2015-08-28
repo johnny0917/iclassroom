@@ -1,0 +1,33 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>iclassroom</groupId>
+		<artifactId>iclassroom</artifactId>
+		<version>0.0.1-SNAPSHOT</version>
+	</parent>
+	<artifactId>p2pdfs</artifactId>
+	<dependencies>
+		<dependency>
+			<groupId>org.eclipse.jgit</groupId>
+			<artifactId>org.eclipse.jgit</artifactId>
+			<version>4.0.1.201506240215-r</version>
+		</dependency>
+		<dependency>
+			<groupId>com.turn</groupId>
+			<artifactId>ttorrent</artifactId>
+			<version>1.4</version>
+		</dependency>
+		<dependency>
+			<groupId>org.hive2hive</groupId>
+			<artifactId>org.hive2hive.core</artifactId>
+			<version>1.2.2</version>
+		</dependency>
+	</dependencies>
+	<repositories>
+		<repository>
+			<id>hive2hive.org</id>
+			<url>http://repo.hive2hive.org</url>
+		</repository>
+	</repositories>
+</project>
