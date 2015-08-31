@@ -30,22 +30,17 @@
 		</dependency>
 		<dependency>
 			<groupId>org.eclipse.jgit</groupId>
+			<artifactId>org.eclipse.jgit.java7</artifactId>
+			<version>3.7.1.201504261725-r</version>
+		</dependency>
+		<dependency>
+			<groupId>org.eclipse.jgit</groupId>
 			<artifactId>org.eclipse.jgit.junit</artifactId>
 			<version>4.0.1.201506240215-r</version>
 		</dependency>
 		<dependency>
 			<groupId>org.eclipse.jgit</groupId>
 			<artifactId>org.eclipse.jgit.junit.http</artifactId>
-			<version>4.0.1.201506240215-r</version>
-		</dependency>
-		<dependency>
-			<groupId>org.eclipse.jgit</groupId>
-			<artifactId>org.eclipse.jgit.test</artifactId>
-			<version>4.0.1.201506240215-r</version>
-		</dependency>
-		<dependency>
-			<groupId>org.eclipse.jgit</groupId>
-			<artifactId>org.eclipse.jgit.http.test</artifactId>
 			<version>4.0.1.201506240215-r</version>
 		</dependency>
 		<dependency>
@@ -63,6 +58,13 @@
 		<repository>
 			<id>hive2hive.org</id>
 			<url>http://repo.hive2hive.org</url>
+		</repository>
+		<repository>
+			<id>jgit-snapshot-repository</id>
+			<url>https://repo.eclipse.org/content/groups/jgit/</url>
+			<snapshots>
+				<enabled>true</enabled>
+			</snapshots>
 		</repository>
 	</repositories>
 </project>
